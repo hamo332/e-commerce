@@ -1,0 +1,137 @@
+/* For very Small Screens Like Mobiles and Tablets */
+
+@media(max-width:767px){
+   
+    .landing
+    {
+        margin-top: 125px;
+    }
+
+    .landing .scrollDown
+    {
+        display: none;
+    }
+
+    .landing .container .left
+    {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+
+
+    .landing .container .left h3
+    {
+        font-size: 30px;
+        font-weight: 900;
+        margin: 0;
+        color: #dd2f2f;
+    }
+    .landing .container .left p
+    {
+        font-size: 16px;
+        color: #888;
+        margin: 0;
+        padding: 0;
+        padding: 10px 0;
+    }
+
+    .landing .container .left .main-button
+    {
+        margin: auto;
+    }
+
+
+    .landing .container .right
+    {
+        width: 0% !important;
+    }
+
+    .landing .container .right img
+    {
+        transition: .3s;
+        animation: animateImage 4s ease-out infinite;
+        position: relative;
+        display: none;
+    }
+
+    .scrollTop
+    {
+        display: none !important;
+    }
+
+    .footer .row .col-xl-4
+    {
+        margin-bottom: 100px !important;
+    }
+
+    .navbar-brand img
+    {
+        position: absolute;
+        width: 100px;
+        left: 0;
+        animation: heart 1s ease infinite;
+    }
+
+    
+    .navbar
+    {
+        padding:20px 30px !important
+    }
+
+    .navbar-brand img
+    {
+        left: -57px;
+    }
+
+    .main-text h3
+    {
+        width: 400px;
+    }
+    
+}
+
+
+/* For Small Screens */
+
+@media(min-width:768px) and (max-width:991px){
+    .landing
+    {
+        margin-top: 125px;
+    }
+    .landing .scrollDown
+    {
+        display: none;
+    }
+
+    .footer .row .col-xl-4
+    {
+        margin-bottom: 100px !important;
+    }
+
+    .contact .contact-form
+    {
+        display: block;
+        width: 500px !important;
+        margin: auto;
+    }
+    
+}
+
+
+/* For Meduim Screens */
+
+@media(min-width:992px) and (max-width:1199px){
+    .contact .contact-form
+    {
+        display: block;
+        width: 600px !important;
+    }
+}
+
+
+/* For Huge Screens and Big Screens */
+
+@media(min-width:1200px){
+    
+}
